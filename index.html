@@ -6,29 +6,17 @@
             body {
                 background-color: #1f1726;
                 color: #F8E7F9;
-                max-width: 290px;
-                overflow: hidden;
-                margin: 0 auto;
-                padding: 5px;
             }
             h1 {
                 margin: 0;
                 padding: 0;
                 line-height: 6px;
+                font-size: 1.5rem;
                 color: #ec64ec;
                 position: absolute;
                 top: 0;
                 left: 0;
                 text-shadow: 1px 1px 4px #098cff;
-            }
-            h2.title {
-                color: #b4e112;
-                padding-top: 0;
-                margin-top: 0;
-                font-size: 18px;
-                position: absolute;
-                right: -2px;
-                top: 7px;
             }
             a {
                 color: #F8E7F9;
@@ -46,10 +34,34 @@
                 position: relative;
                 margin-top: 40px;
             }
-            .tres {
-                width: 33.33%;
+            header {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background-color: #1f1726;
+                z-index: 999;
                 display: block;
+                height: 127px;
+                box-shadow: 1px 5px 12px #190c24;
+            }
+            header > pre {
+                margin-bottom: 40px;
+                display: block;
+                position: fixed;
+                top: 45px;
+                left: calc((100% - 290px) / 2);
+                width: 290px;
                 float: left;
+            }
+            header > pre > h2 {
+                color: #b4e112;
+                padding-top: 0;
+                margin-top: 0;
+                font-size: 1.1rem;
+                position: absolute;
+                right: -2px;
+                top: 7px;
             }
             .underline_me {
                 text-decoration: underline;
@@ -64,21 +76,69 @@
             .left {
                 text-align: left;
             }
-            footer {
+            content {
                 display: block;
+                position: relative;
+                width: 290px;
+                margin: 125px auto 0 auto;
+            }
+            .scribble {
+                margin: 0 auto;
+            }
+            .scribble > h2 {
+                text-align: right;
+                margin-bottom: 0;
+                color: #6c2f6c;
+                text-shadow: 1px 10px 5px #6c2f6c;
+                transition: 0.1s all ease-in-out;
+            }
+            .scribble > div {
+                text-align: left;
+                color: #787878;
+                font-size: 0.8rem;
+                transition: 0.1s all ease-in-out;
+            }
+            .scribble:hover > h2 {
+                color: #c364ec;
+                font-size: 1.4rem;
+                transition: 0.2s all ease-in-out;
+            }
+            .scribble:hover > div {
+                color: #c9c9c9;
+                font-size: 1rem;
+                transition: 0.2s all ease-in-out;
+            }
+            footer {
+                position: fixed;
+                bottom: 0;
+                left: 0;
                 width: 100%;
-                float: left;
+                height: 40px;
+                background-color: #1f1726;
+                box-shadow: 1px -5px 12px #190c24;
                 border-top: 1px solid #b4e112;
-                margin-top: 40px;
+            }
+            footer > div {
+                max-width: 290px;
+                position: relative;
+                margin-left: calc((100% - 290px)/ 2);
+            }
+            footer > div > div {
+                width: 33.33%;
+                display: block;
+                float: left;
+                text-align: center;
             }
         </style>
     </head>
     <body>
-        <div>
+        <header>
             <pre>
-                <h1>impressions</h1>
-                <h2 class="title"><i>by ullamonster</i></h2>
+                <h1>scribbles</h1>
+                <h2><i>by ullamonster</i></h2>
             </pre>
+        </header>
+        <content>
             <pre><h2 class="right">coding +</h2>
                 <a class="right" href="https://github.com/MadeWithLovelace" target="_blank"><li>madewithlovelace on github</li></a>
                 <a class="right" href="https://github.com/ullamonster" target="_blank"><li>artistulla on github</li></a></pre>
@@ -89,15 +149,15 @@
             <pre><h2 class="right">art +</h2>
                 <a class="right" href="/scribbles" target="_blank"><li>Scribbles</li></a>
             </pre>
-        </div>
+        </content>
         <footer>
-            <div class="tres center">
+            <div>
                 <pre><a href="https://twitter.com/ullamonster" target="_blank">twitter</a></pre>
             </div>
-            <div class="tres center">
+            <div>
                 <pre><a href="https://www.reddit.com/user/thebreathofatree" target="_blank">reddit</a></pre>
             </div>
-            <div class="tres center">
+            <div>
                 <pre><a href="https://forum.cardano.org/u/artistulla/" target="_blank">forums</a></pre>
             </div>
         </footer>
