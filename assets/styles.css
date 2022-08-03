@@ -77,6 +77,11 @@ content {
     width: 290px;
     margin: 140px auto 0 auto;
 }
+content > pre {
+    display: block;
+    float: left;
+    width: 100%;
+}
 .scribble {
     margin: 0 auto;
 }
