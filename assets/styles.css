@@ -64,7 +64,7 @@ header > pre > h2 {
     right: -2px;
     top: 7px;
 }
-#header-link {
+#header_home {
     position: fixed;
     top: 0;
     left: 0;
@@ -73,7 +73,7 @@ header > pre > h2 {
     height: 127px;
     z-index: 99;
 }
-.underline_me {
+.underline-me {
     text-decoration: underline;
 }
 .center {
@@ -97,10 +97,10 @@ content > pre {
     float: left;
     width: 100%;
 }
-.scribble {
+.hover-me-tender {
     margin: 0 auto;
 }
-.scribble > h2 {
+.hover-me-tender > h2 {
     text-align: right;
     margin-bottom: 0;
     margin-top: 0;
@@ -108,18 +108,18 @@ content > pre {
     text-shadow: 1px 10px 5px #6c2f6c;
     transition: 0.1s all ease-in-out;
 }
-.scribble > div {
+.hover-me-tender > div {
     text-align: left;
     color: #787878;
     font-size: 0.8rem;
     transition: 0.1s all ease-in-out;
 }
-.scribble:hover > h2 {
+.hover-me-tender:hover > h2 {
     color: #c364ec;
     font-size: 1.4rem;
     transition: 0.2s all ease-in-out;
 }
-.scribble:hover > div {
+.hover-me-tender:hover > div {
     color: #c9c9c9;
     font-size: 1rem;
     transition: 0.2s all ease-in-out;
