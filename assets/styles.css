@@ -83,6 +83,24 @@ header > pre > h2 {
     height: 127px;
     z-index: 99;
 }
+.top {
+    text-align: center;
+}
+.top > a {
+    width: 100%;
+    height: 24px;
+    float: left;
+    margin-top: 24px;
+}
+.top > a > div {
+    border: solid #fff;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 7px;
+    margin: 10px 0 0 0;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
 .underline-me {
     text-decoration: underline;
 }
