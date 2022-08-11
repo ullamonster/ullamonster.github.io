@@ -6,17 +6,17 @@
   opacity:0.6;
   background-size: 550px !important;
   background-repeat: no-repeat !important;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 .image-in-da-back:hover {
   opacity: 1;
-  background-size: 232px !important;
-  transition: all 0.2s ease-in-out;
+  background-size: 306px !important;
+  transition: all 0.4s ease-in-out;
 }
 .image-in-da-back > div {
   position: absolute;
   bottom: 16px;
-  text-shadow: 0px 0px 4px #1f1726;
+  text-shadow: 0px 0px 4px #6c2f6c;
 }
 content {
   height: 2000px;
