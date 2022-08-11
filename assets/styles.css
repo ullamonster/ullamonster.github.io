@@ -124,6 +124,9 @@ content > pre {
     font-size: 0.8rem;
     transition: 0.1s all ease-in-out;
 }
+.hover-me-tender.back:hover {
+    transition: all 0.2s ease-in-out;
+}
 .hover-me-tender:hover > h2 {
     color: #c364ec;
     font-size: 1.4rem;
