@@ -2,7 +2,10 @@
   position: relative;
   padding: 8px;
   height: 210px;
+  margin: 10px auto;
   opacity:0.6;
+  background: no-repeat;
+  background-size: contain;
   transition: all 0.2s ease-in-out;
 }
 .image-in-da-back:hover {
@@ -13,27 +16,30 @@
   position: absolute;
   bottom: 16px;
 }
+content {
+  height: 2000px;
+}
 #carbonchromeopathy {
-  background: url(../assets/samples/carbonchromeopathy.png) no-repeat center left;
+  background: url(../assets/samples/carbonchromeopathy.png);
 }
 #solace {
-  background: url(../assets/samples/solace.png) no-repeat center left;
+  background: url(../assets/samples/solace.png);
 }
 #liberalnuance {
-  background: url(../assets/samples/liberalnuance.png) no-repeat center left;
+  background: url(../assets/samples/liberalnuance.png);
 }
 #whatliesbeneath {
-  background: url(../assets/samples/whatliesbeneath.png) no-repeat center left;
+  background: url(../assets/samples/whatliesbeneath.png);
 }
 #theyhateherwhenshesfloating {
-  background: url(../assets/samples/theyhateherwhenshesfloating.png) no-repeat center left;
+  background: url(../assets/samples/theyhateherwhenshesfloating.png);
 }
 #plummet {
-  background: url(../assets/samples/plummet.png) no-repeat center left;
+  background: url(../assets/samples/plummet.png);
 }
 #chilld {
-  background: url(../assets/samples/chilld.png) no-repeat center left;
+  background: url(../assets/samples/chilld.png);
 }
 #areyouinthewoods {
-  background: url(../assets/samples/areyouinthewoods.png) no-repeat center left;
+  background: url(../assets/samples/areyouinthewoods.png);
 }
