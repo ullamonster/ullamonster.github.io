@@ -4,12 +4,13 @@
   height: 210px;
   margin: 10px auto;
   opacity:0.6;
-  background-size: cover !important;
+  background-size: 550px !important;
   background-repeat: no-repeat !important;
   transition: all 0.2s ease-in-out;
 }
 .image-in-da-back:hover {
   opacity: 1;
+  background-size: 232px !important;
   transition: all 0.2s ease-in-out;
 }
 .image-in-da-back > div {
@@ -38,8 +39,8 @@ content {
 #plummet {
   background: url(../assets/samples/plummet.png);
 }
-#chilld {
-  background: url(../assets/samples/chilld.png);
+#chill {
+  background: url(../assets/samples/chill.png);
 }
 #areyouinthewoods {
   background: url(../assets/samples/areyouinthewoods.png);
