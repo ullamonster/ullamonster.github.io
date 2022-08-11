@@ -4,8 +4,8 @@
   height: 210px;
   margin: 10px auto;
   opacity:0.6;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
   transition: all 0.2s ease-in-out;
 }
 .image-in-da-back:hover {
