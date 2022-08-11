@@ -121,7 +121,8 @@ content {
     display: block;
     position: relative;
     width: 290px;
-    margin: 140px auto 0 auto;
+    margin: 0 auto 0 auto;
+    padding-top: 146px;
 }
 content > pre {
     display: block;
