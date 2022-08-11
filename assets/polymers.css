@@ -13,6 +13,6 @@
   position: absolute;
   bottom: 16px;
 }
-#carbonchromeopathy:hover {
+#carbonchromeopathy {
   background: url(../assets/samples/carbonchromeopathy.png) no-repeat center left;
 }
