@@ -1,3 +1,14 @@
+.image-in-da-back {
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+.image-in-da-back:hover {
+  transition: all 0.2s ease-in-out;
+}
+.image-in-da-back > div {
+  position: absolute;
+  bottom: 16px;
+}
 #carbonchromeopathy {
   background: url(../assets/samples/carbonchromeopathy.png) no-repeat center left;
   padding: 8px;
