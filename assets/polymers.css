@@ -4,7 +4,7 @@
   height: 210px;
   margin: 10px auto;
   opacity:0.6;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   transition: all 0.2s ease-in-out;
 }
@@ -15,6 +15,7 @@
 .image-in-da-back > div {
   position: absolute;
   bottom: 16px;
+  text-shadow: 0px 0px 4px #1f1726;
 }
 content {
   height: 2000px;
