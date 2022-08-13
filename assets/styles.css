@@ -44,6 +44,9 @@ li {
     text-shadow: -1px 0px 0px #ec64ec;
     transition: all 0.2s ease-in-out;
 }
+@media screen and (max-width: 420px) {
+    .home content > pre > h2 {text-align: center;}
+}
 .home content > pre > h2:hover {
     text-shadow: 1px 0px 0px #ec64ec;
     height: 60px;
