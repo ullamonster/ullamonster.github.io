@@ -1,9 +1,10 @@
 .image-in-da-back {
   position: relative;
   padding: 8px;
-  height: 210px;
-  margin: 10px auto;
-  opacity:0.6;
+  height: calc(100vh * .6);
+  max-height: 627px;
+  margin: 43px auto;
+  opacity: 0.6;
   background-size: auto 300% !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
