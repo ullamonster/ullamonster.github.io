@@ -50,4 +50,9 @@
   #pinkskydaize {
     background: url(../assets/samples/PinkSkyDaize.gif)
   }
+  @media screen and (max-width: 486px) {
+    .image-in-da-back {
+      height: calc(100vw * 0.67);
+    }
+  }
   
