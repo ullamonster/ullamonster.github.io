@@ -39,6 +39,9 @@ li {
     list-style: square;
 }
 .home content > pre > h2 {
+    height: 60px;
+    line-height: 60px;
+    padding-right: 12px;
     color: #c9295f;
     font-size: 2rem;
     text-shadow: -1px 0px 0px #ec64ec;
@@ -47,13 +50,12 @@ li {
 @media screen and (max-width: 420px) {
     .home content > pre > h2 {text-align: center;}
 }
-.home content > pre > h2:hover {
-    text-shadow: 1px 0px 0px #ec64ec;
-    height: 60px;
-    line-height: 60px;
-    padding-right: 12px;
+.home content > pre:hover > h2: {
     background-color: #f7b0ba;
     transition: all 0.2s ease-in-out;
+}
+.home content > pre > h2:hover {
+    text-shadow: 1px 0px 0px #ec64ec;
 }
 .home content > pre > div {
     height: 29px;
