@@ -48,9 +48,24 @@ li {
     text-shadow: 1px 0px 0px #ec64ec;
     transition: all 0.2s ease-in-out;
 }
+.home content > pre > div {
+    height: 29px;
+    display: block;
+    float: none;
+    width: 100%;
+}
 .home content > pre > div > a {
     text-decoration: none;
     font-size: 1rem;
+    display: block;
+    height: 22px;
+    float: right;
+    padding: 4px;
+    border-bottom: 1px solid #1f1726;
+}
+.home content > pre > div > a:hover {
+    border-bottom: 1px solid #ff0054 !important;
+    box-shadow: 0px 0px 3px #f44336;
 }
 .home content > pre > div > a > li {
     list-style: none;
