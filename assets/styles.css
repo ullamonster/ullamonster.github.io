@@ -5,6 +5,11 @@ body {
     background-color: #1f1726;
     color: #F8E7F9;
 }
+body > div > pre {
+    display: block;
+    position: relative;
+    margin-top: 40px;
+}
 h1 {
     margin: 0;
     padding: 0;
@@ -33,10 +38,22 @@ a:hover {
 li {
     list-style: square;
 }
-body > div > pre {
-    display: block;
-    position: relative;
-    margin-top: 40px;
+.home content > pre > h2 {
+    color: #c9295f;
+    font-size: 2rem;
+    text-shadow: -1px 0px 0px #ec64ec;
+    transition: all 0.2s ease-in-out;
+}
+.home content > pre > h2:hover {
+    text-shadow: 1px 0px 0px #ec64ec;
+    transition: all 0.2s ease-in-out;
+}
+.home content > pre > a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+.home content > pre > a > li.branch {
+    list-style: cjk-earthly-branch;
 }
 header {
     position: fixed;
@@ -86,16 +103,16 @@ header > pre > h2 {
     height: 127px;
     z-index: 99;
 }
-.top {
+.to_top {
     text-align: center;
 }
-.top > a {
+.to_top > a {
     width: 100%;
     height: 24px;
     float: left;
     margin-top: 24px;
 }
-.top > a > div {
+.to_top > a > div {
     border: solid #fff;
     border-width: 0 1px 1px 0;
     display: inline-block;
