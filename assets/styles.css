@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'BloxPixel';
+    src: url('assets/fonts/blox/Blox2.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Pixel';
+    src: url('assets/fonts/pixel/Pixel.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'PixelBulky';
+    src: url('assets/fonts/pixel-bulky/BULKYPIX.TTF') format('truetype');
+}
 html {
     scroll-behavior: smooth;
 }
@@ -92,16 +104,19 @@ header > pre {
     display: block;
     position: fixed;
     top: 45px;
-    left: calc((100% - 290px) / 2);
-    width: 290px;
-    float: left;
+    left: 0;
+    width: 100%;
 }
 header > pre > h1 {
     display: block;
     position: relative;
-    float: left;
-    width: 142px;
-    text-align: right;
+    font-family: BloxPixel;
+    font-weight: normal;
+    font-size: 5rem;
+    text-align: center;
+    width: auto;
+    float: none;
+    margin: 0 auto;
 }
 header > pre > h2 {
     display: block;
