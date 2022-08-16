@@ -181,6 +181,8 @@ content > pre {
     margin: 0 auto;
 }
 .hover-me-tender > h2 {
+    font-family: 'Pixel';
+    font-weight: normal;
     text-align: right;
     margin-bottom: 0;
     margin-top: 0;
