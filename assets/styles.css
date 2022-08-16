@@ -51,10 +51,10 @@ li {
     text-shadow: -1px 0px 0px #ec64ec;
     transition: all 0.2s ease-in-out;
 }
-.home content > pre:hover > h2 {
+/*.home content > pre:hover > h2 {
     background-color: #f7b0ba;
     transition: all 0.2s ease-in-out;
-}
+}*/
 .home content > pre > h2:hover {
     text-shadow: 1px 0px 0px #ec64ec;
 }
@@ -68,9 +68,10 @@ li {
     text-decoration: none;
     font-size: 1rem;
     display: block;
-    height: 22px;
+    height: 26px;
     float: right;
-    padding: 4px;
+    line-height: 28px;
+    padding: 0px 4px 0px 8px;
     border-bottom: 1px solid #1f1726;
 }
 .home content > pre > div > a:hover {
