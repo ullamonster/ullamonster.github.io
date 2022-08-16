@@ -1,15 +1,3 @@
-@font-face {
-    font-family: 'BloxPixel';
-    src: url('assets/fonts/blox/Blox2.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Pixel';
-    src: url('assets/fonts/pixel/Pixel.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'PixelBulky';
-    src: url('assets/fonts/pixel-bulky/BULKYPIX.TTF') format('truetype');
-}
 html {
     scroll-behavior: smooth;
 }
