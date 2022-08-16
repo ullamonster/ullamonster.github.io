@@ -127,7 +127,7 @@ header > pre > h2 {
     margin-top: 0;
     font-size: 1.1rem;
 }
-#header_home {
+/*#header_home {
     position: fixed;
     top: 0;
     left: 0;
@@ -135,7 +135,7 @@ header > pre > h2 {
     margin-left: calc((100% - 290px) / 2);
     height: 127px;
     z-index: 99;
-}
+}*/
 .to_top {
     text-align: center;
 }
