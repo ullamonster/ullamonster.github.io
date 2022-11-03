@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ullacodes
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ulla.monster
+  * I am ullacodes (https://keybase.io/ullacodes) on keybase.
+  * I have a public key ASCq8iVxRY2w-wMgjtQxElDCi7FMCJQGsfutI6-dSEYQkQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120aaf22571458db0fb03208ed4311250c28bb14c089406b1fbad23af9d484610910a",
+      "host": "keybase.io",
+      "kid": "0120aaf22571458db0fb03208ed4311250c28bb14c089406b1fbad23af9d484610910a",
+      "uid": "d6164f98822b61ec1bd6c611e70b5119",
+      "username": "ullacodes"
+    },
+    "merkle_root": {
+      "ctime": 1667505199,
+      "hash": "779653878b8a837bd73dddf1675bec9dad2114656f7ffa82ec4a5967fcf278fbf2202d128b68cd1fa952f5a2d9a1f427743af3efc5968a76e1e91a73f5a44663",
+      "hash_meta": "f7e7f7c7086e15348dff0156773bd448fa8dbdc5278170c427498487306aa1e5",
+      "seqno": 23483108
+    },
+    "service": {
+      "entropy": "sTqRfPIq+DXr92+xZ6IkZBfS",
+      "hostname": "ulla.monster",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.2"
+  },
+  "ctime": 1667505254,
+  "expire_in": 504576000,
+  "prev": "5a288bcb0ae743e93796f67aeef1fba067e28be89b9e0577a647d25c1037b981",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgqvIlcUWNsPsDII7UMRJQwouxTAiUBrH7rSOvnUhGEJEKp3BheWxvYWTESpcCB8QgWiiLywrnQ+k3lvZ67vH7oGfii+ibngV3pkfSXBA3uYHEIBM0YQCRcjlNT0MMSVQiFhVXKk6ASDIh5vim/MVGpMtPAgHCo3NpZ8RAnDTmljfMXg09O7cmh5lwBf6awqgn+8sjr93xdXEqR2I2d6HwWwpquTVRciCG4Drpr8/kllmTFQH5TyClnYqyDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBcGk3q/miaPtAyZDhjNwVsxMVzr2oHsGHVVe5uFg1ZVo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ullacodes
+
+==================================================================
